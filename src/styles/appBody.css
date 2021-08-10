@@ -1,0 +1,31 @@
+.body {
+  background: rgb(182, 161, 134);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 3px solid rgb(7, 3, 3);
+}
+header {
+  border: 3px solid rgb(15, 15, 15);
+}
+main {
+  display: flex;
+  border: 3px solid black;
+  height: 80vh;
+}
+.sideNav {
+  border-right: 3px solid rgb(10, 10, 10);
+}
+.home.hidden,
+.products.hidden,
+.settings.hidden {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+form {
+  margin-left: 193px;
+}
